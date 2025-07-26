@@ -1,0 +1,81 @@
+# Compilados Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+*.out
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# Diretórios de build
+/target/
+/build/
+/out/
+
+# Configs específicas de IDEs
+
+## IntelliJ
+.idea/
+*.iml
+*.iws
+
+## Eclipse
+.project
+.classpath
+.settings/
+
+## VS Code
+.vscode/
+
+# SO e arquivos do sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.suo
+*.user
+*.lnk
+
+# Arquivos de backup do sistema
+*~
+
+# Arquivos de cache do Maven e Gradle
+.mvn/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+
+# Wrapper logs
+**/gradle-wrapper.properties
+**/gradlew
+**/gradlew.bat
+
+# Arquivos temporários do Spring Boot DevTools
+.spring-boot-devtools.properties
+
+# Banco de dados local ou arquivos sensíveis
+*.h2.db
+*.mv.db
+*.sqlite
+
+# Variáveis de ambiente locais
+.env
+.env.*
+
+# Testes
+/test-output/
+/test-results/
+
+# Coverage
+/coverage/
+jacoco.exec
+
+# Outras pastas comuns
+/logs/
+node_modules/
